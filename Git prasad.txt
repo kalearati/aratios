@@ -1,0 +1,67 @@
+email=
+pass git = aratikale9297@Aa
+
+git config --global user.name "kalearati"
+
+git config --global user.email "aratikale9297@gmail.com"
+
+
+git init
+
+
+dac@dac-52 MINGW64 ~/Desktop/prasad
+$ git init
+Initialized empty Git repository in C:/Users/dac.STUDENTSDC/Desktop/prasad/.git/
+
+dac@dac-52 MINGW64 ~/Desktop/prasad (master)
+$ git clone https://github.com/kalearati/prasadexam.git
+Cloning into 'prasadexam'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+dac@dac-52 MINGW64 ~/Desktop/prasad (master)
+$ cd prasadexam
+
+dac@dac-52 MINGW64 ~/Desktop/prasad/prasadexam (main)
+$ git add .
+
+dac@dac-52 MINGW64 ~/Desktop/prasad/prasadexam (main)
+$ git commit -m "firstcommit"
+[main c41bde6] firstcommit
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Hellodocker.java
+
+dac@dac-52 MINGW64 ~/Desktop/prasad/prasadexam (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kalearati/prasadexam.git
+   10aa6b6..c41bde6  main -> main
+branch 'main' set up to track 'origin/main'.
+
+dac@dac-52 MINGW64 ~/Desktop/prasad/prasadexam (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1001 bytes | 32.00 KiB/s, done.
+From https://github.com/kalearati/prasadexam
+   c41bde6..b7aa5b6  main       -> origin/main
+Updating c41bde6..b7aa5b6
+Fast-forward
+ Hellodocker.java | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+dac@dac-52 MINGW64 ~/Desktop/prasad/prasadexam (main)
+$ git pull
+Already up to date.
+
+dac@dac-52 MINGW64 ~/Desktop/prasad/prasadexam (main)
+$ 
