@@ -1,4 +1,4 @@
-email=
+emailnkkjkhkhkkj=
 pass git = aratikale9297@Aa
 
 git config --global user.name "kalearati"
